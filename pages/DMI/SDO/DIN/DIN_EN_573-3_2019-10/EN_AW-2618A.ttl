@@ -1,0 +1,14 @@
+@prefix : <https://w3id.org/dmi/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://w3id.org/dmi> .
+
+
+<https://w3id.org/dmi/SDO/DIN/DIN_EN_573-3_2019-10/EN_AW-2618A> rdf:type owl:NamedIndividual ,
+                                                                         :DigitalMaterialIdentifier ;
+                                                                :specified_by <https://w3id.org/dmi/SDO/DIN/DIN_EN_573-3_2019-10> ;
+                                                                <http://www.w3.org/2004/02/skos/core#altLabel> "EN AW-Al Cu2Mg1,5Ni"^^xsd:string ;
+                                                                <http://www.w3.org/2004/02/skos/core#prefLabel> "EN AW-2618A"^^xsd:string .
