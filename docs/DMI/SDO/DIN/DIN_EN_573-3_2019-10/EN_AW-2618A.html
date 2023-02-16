@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title id="title">https://w3id.org/dmi/SDO/DIN/DIN_EN_573-3_2019-10/EN_AW-2618A</title>
+    <style>
+        html {
+            height: 100%;
+            background-color: #F7F7F7;
+        }
+
+        body {
+            margin: 0 auto;
+            height: 100%;
+            width: 100%;
+        }
+
+        main {
+            width: calc(80% - 20px);
+            height: calc(100% - 35px);
+            overflow: auto;
+        }
+
+        main, aside {
+            position: fixed;
+            bottom: 0;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            margin-bottom: 3px;
+            z-index: 1;
+            background-color: #CCCCCC;
+        }
+
+        aside {
+            height: calc(100% - 35px);
+            right: 0;
+            padding-left: 10px;
+            width: calc(20% + 10px);
+            background-color: #EEEEEE;
+            display: flex;
+            flex-direction: column;
+            overflow: auto;
+        }
+
+        header &gt; div {
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+            font-family: "Fira Sans", sans-serif;
+            padding: 3px;
+            display: flex;
+        }
+
+        .buffer {
+            flex-grow: 1;
+        }
+
+        header &gt; div &gt; div:last-child {
+            padding-right: 15px;
+        }
+
+        header div span.title {
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        header input {
+            background-color: inherit;
+            height: 20px;
+            font-size: 14px;
+        }
+
+        header button {
+            font-weight: bold;
+        }
+
+        header div img:first-child {
+            display: block;
+            float: left;
+            padding: 0 5px;
+            height: 25px;
+            width: 25px;
+        }
+
+        header div span {
+            padding: 5px;
+            line-height: 25px;
+            vertical-align: middle;
+        }
+
+        header #\#navButton {
+            font-size: .85em;
+        }
+
+        header select {
+            background-color: inherit;
+        }
+
+        aside div {
+            font-family: "Fira Sans", sans-serif;
+            margin-top: 20px;
+            padding-right: 10px;
+            font-size: .95em;
+        }
+
+        aside div:first-child {
+            margin-top: 10px;
+        }
+
+        aside .it {
+            font-style: italic;
+        }
+
+        aside h2 {
+            margin: 5px 0 5px 0;
+            font-size: larger;
+        }
+
+        aside table {
+            margin: 5px 0 0 0;
+        }
+
+        aside table.horizontal th {
+            padding: 0 5px;
+            min-width: 40px;
+        }
+
+        aside th, aside td, aside .small {
+            font-size: .9em;
+            word-break: break-all;
+        }
+
+        td.tdCenter {
+            text-align: center;
+        }
+
+        aside #\#uri {
+            font-style: normal;
+        }
+
+        aside #\#ldp {
+            margin: 5px 0 0 0;
+            padding-left: 20px;
+            list-style: none;
+        }
+
+        .ldpFulfilled::before {
+            content: "✓ ";
+            color: green;
+            font-weight: bold;
+        }
+
+        .ldpNotFulfilled::before {
+            content: "✗ ";
+            color: red;
+            font-weight: bold;
+        }
+
+        aside .resourceInfo {
+            margin-bottom: 10px;
+        }
+
+        aside div.triples {
+            overflow: inherit;
+            margin: 0;
+            font-size: .8em;
+            padding-right: 0;
+            min-height: 20%;
+        }
+
+        aside .triple {
+            margin: 0 0 8px 0;
+        }
+
+        .prefixes {
+            margin: 8px 8px 2em 8px;
+        }
+
+        .triples {
+            margin: 0 8px;
+        }
+
+        .prefixes .prefixDeclaration, .prefixes .postfix {
+            text-decoration: none;
+        }
+
+        .uri, .uri a, .prefixDeclaration {
+
+        }
+
+        .prefixName, .prefixName a {
+
+        }
+
+        .postfix, .postfix a, .literal a {
+
+        }
+
+        .blankNode {
+
+        }
+
+        .literal {
+
+        }
+
+        td {
+            word-break: break-all;
+        }
+    </style>
+    <link href="EN_AW-2618A-Dateien/css.css" rel="stylesheet">
+    <script id="script">
+const style = {"width":"100%","whiteSpace_nowrap":true,"backgroundColor":"#FFFFFF","fontFamily":""Consolas", monospace, sans-serif","fontSize":11,"lineHeight":1.1,"color":"#000000","uri_color":"#2806C4","uri_fontWeight_bold":false,"uri_fontStyle_italic":false,"uri_textDecoration_underline":true,"uri_textDecorationColor":"#656465","prefixName_color":"#000000","prefixName_fontWeight_bold":false,"prefixName_fontStyle_italic":false,"prefixName_textDecoration_underline":false,"prefixName_textDecorationColor":"#656465","postfix_color":"#112DD3","postfix_fontWeight_bold":false,"postfix_fontStyle_italic":false,"postfix_textDecoration_underline":true,"postfix_textDecorationColor":"#656465","blankNode_color":"#656465","blankNode_fontWeight_bold":false,"blankNode_fontStyle_italic":false,"blankNode_textDecoration_underline":false,"blankNode_textDecorationColor":"#656465","literal_color":"#5200D0","literal_fontWeight_bold":false,"literal_fontStyle_italic":true,"literal_textDecoration_underline":false,"literal_textDecorationColor":"#656465"};
+
+        function getStyleRule(stylesheet, styleClass) {
+    for (let rule in stylesheet.cssRules) {
+        if (stylesheet.cssRules[rule].cssText === undefined)
+            continue;
+        if (stylesheet.cssRules[rule].cssText.startsWith(styleClass))
+            return stylesheet.cssRules[rule];
+    }
+    return null;
+}
+
+function setStyle() {
+    browser.storage.sync.get("options").then(function (result) {
+        const style = result.options.allStyleTemplate[result.options.allStyleTemplate.selected];
+        applyStyle(style, true);
+    });
+}
+
+function applyStyle(input, contentScript = false) {
+    const stylesheet = document.styleSheets[0];
+    for (const setting in input) {
+        let styleValue = input[setting];
+        let array = setting.split("_");
+        if (typeof input[setting] === "boolean") {
+            styleValue = styleValue ? array[array.length - 1] : "None";
+            array.pop();
+        }
+        let styleClass = ".";
+        if (array.length === 1) {
+            if (array[0] === "backgroundColor" || setting + contentScript.toString() === "widthtrue")
+                array = ["body", array[0]];
+            else
+                array = ["main", array[0]];
+            styleClass = "";
+        }
+        styleClass += array[0];
+        if (styleClass === ".aside")
+            styleClass = "aside";
+        else if (styleClass === ".header")
+            styleClass = "header";
+        const styleRule = getStyleRule(stylesheet, styleClass);
+        if (styleRule === null)
+            continue;
+        const styleSetting = array[1];
+        if (styleSetting === "fontSize")
+            styleValue += "pt";
+        if (setting + contentScript.toString() === "widthtrue") {
+            getStyleRule(stylesheet, "main").style["width"] = "calc(" + parseInt(styleValue) * .80 + "% - 20px)";
+            getStyleRule(stylesheet, "aside").style["width"] = "calc(" + parseInt(styleValue) * .20 + "% + 10px)";
+            getStyleRule(stylesheet, "aside").style["right"] = "calc(" + ((100 - parseInt(styleValue)) / 2) + "%)";
+        }
+        styleRule.style[styleSetting] = styleValue;
+    }
+}
+
+try {
+    applyStyle(style);
+} catch (e) {
+    setStyle();
+}
+
+    </script>
+    
+</head>
+<body id="template"><!--TODO start all ids with # to prevent conflicts-->
+
+
+<main id="main" style="position: static; height: 100%; margin: 0 auto;">
+    <div class="prefixes" id="prefixes">
+
+    <span class="prefix"><span class="prefixDeclaration">@prefix</span> <span class="prefixName"></span><span class="postfix">:</span> <span class="uri"><a href="https://w3id.org/dmi/">&lt;https://w3id.org/dmi/&gt;</a></span> .<br></span><span class="prefix"><span class="prefixDeclaration">@prefix</span> <span class="prefixName">owl</span><span class="postfix">:</span> <span class="uri"><a href="http://www.w3.org/2002/07/owl#">&lt;http://www.w3.org/2002/07/owl#&gt;</a></span> .<br></span><span class="prefix"><span class="prefixDeclaration">@prefix</span> <span class="prefixName">rdf</span><span class="postfix">:</span> <span class="uri"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#">&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;</a></span> .<br></span><span class="prefix"><span class="prefixDeclaration">@prefix</span> <span class="prefixName">skos</span><span class="postfix">:</span> <span class="uri"><a href="http://www.w3.org/2004/02/skos/core#">&lt;http://www.w3.org/2004/02/skos/core#&gt;</a></span> .<br></span><span class="prefix"><span class="prefixDeclaration">@prefix</span> <span class="prefixName">xsd</span><span class="postfix">:</span> <span class="uri"><a href="http://www.w3.org/2001/XMLSchema#">&lt;http://www.w3.org/2001/XMLSchema#&gt;</a></span> .<br></span></div>
+    <div class="triples" id="triples">
+
+    <p class="triple"><span class="subject"><span class="uri"><a href="https://w3id.org/dmi/SDO/DIN/DIN_EN_573-3_2019-10/EN_AW-2618A">&lt;https://w3id.org/dmi/SDO/DIN/DIN_EN_573-3_2019-10/EN_AW-2618A&gt;</a></span></span> <span class="predicate" indent="64"><span class="postfix"><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"><span class="prefixName">rdf</span>:type</a></span></span> <span class="object" indent="73"><span class="postfix"><a href="http://www.w3.org/2002/07/owl#NamedIndividual"><span class="prefixName">owl</span>:NamedIndividual</a></span></span> ,<br><span class="object" indent="73" style="margin-left: 73ch;"><span class="postfix"><a href="https://w3id.org/dmi/DigitalMaterialIdentifier"><span class="prefixName"></span>:DigitalMaterialIdentifier</a></span></span>  ;
+<br><span class="predicate" indent="64" style="margin-left: 64ch;"><span class="postfix"><a href="http://www.w3.org/2004/02/skos/core#altLabel"><span class="prefixName">skos</span>:altLabel</a></span></span> <span class="object" indent="78"><span class="literal">"EN AW-Al Cu2Mg1,5Ni"</span></span>  ;
+<br><span class="predicate" indent="64" style="margin-left: 64ch;"><span class="postfix"><a href="http://www.w3.org/2004/02/skos/core#prefLabel"><span class="prefixName">skos</span>:prefLabel</a></span></span> <span class="object" indent="79"><span class="literal">"EN AW-2618A"</span></span>  ;
+<br><span class="predicate" indent="64" style="margin-left: 64ch;"><span class="uri"><a href="https://w3id.org/dmi/specified_by">&lt;https://w3id.org/dmi/specified_by&gt;</a></span></span> <span class="object" indent="100"><span class="uri"><a href="https://w3id.org/dmi/SDO/DIN/DIN_EN_573-3_2019-10">&lt;https://w3id.org/dmi/SDO/DIN/DIN_EN_573-3_2019-10&gt;</a></span></span>   .</p></div>
+</main>
+
+
+</body></html>
