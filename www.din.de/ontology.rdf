@@ -1,0 +1,2701 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/dmi/www.din.de#"
+     xml:base="https://w3id.org/dmi/www.din.de"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:prov="http://www.w3.org/ns/prov#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://w3id.org/dmi/www.din.de">
+        <owl:imports rdf:resource="https://w3id.org/dmi"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/identifier -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/identifier"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasQuotedFrom -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/prov#wasQuotedFrom"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/homepage -->
+
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/homepage"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/ontology/bibo/Standard -->
+
+
+    <owl:Class rdf:about="http://purl.org/ontology/bibo/Standard"/>
+    
+
+
+    <!-- https://w3id.org/dmi/Digital_material_identifier -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dmi/Digital_material_identifier"/>
+    
+
+
+    <!-- https://w3id.org/dmi/Standards_defining_organisation -->
+
+
+    <owl:Class rdf:about="https://w3id.org/dmi/Standards_defining_organisation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Standard"/>
+        <terms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://dx.doi.org/10.31030/3315136</terms:identifier>
+        <terms:publisher rdf:resource="https://www.gleif.org/lei/52990058GPJXLHCWPN04"/>
+        <rdfs:label>DIN EN 573-3:2022-09</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1050A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1050A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al 99,5</skos:altLabel>
+        <skos:prefLabel>EN AW-1050A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1060 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1060">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al 99,6</skos:altLabel>
+        <skos:prefLabel>EN AW-1060</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1070A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1070A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al 99,7</skos:altLabel>
+        <skos:prefLabel>EN AW-1070A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1080A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1080A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al 99,8(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-1080A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1085 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1085">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al 99,85</skos:altLabel>
+        <skos:prefLabel>EN AW-1085</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1090 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1090">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al 99,90</skos:altLabel>
+        <skos:prefLabel>EN AW-1090</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1098 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1098">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al 99,98</skos:altLabel>
+        <skos:prefLabel>EN AW-1098</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1100 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1100">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al 99,0Cu</skos:altLabel>
+        <skos:prefLabel>EN AW-1100</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1110 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1110">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al 99,1</skos:altLabel>
+        <skos:prefLabel>EN AW-1110</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1198 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1198">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al 99,98(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-1198</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1199 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1199">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al 99,99</skos:altLabel>
+        <skos:prefLabel>EN AW-1199</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1200 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1200">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al 99,0</skos:altLabel>
+        <skos:prefLabel>EN AW-1200</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1200A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1200A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al 99,0(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-1200A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1235 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1235">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al 99,35</skos:altLabel>
+        <skos:prefLabel>EN AW-1235</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1350 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1350">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al 99,5</skos:altLabel>
+        <skos:prefLabel>EN AW-1350</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1350A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1350A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al 99,5(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-1350A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1370 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1370">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al 99,7</skos:altLabel>
+        <skos:prefLabel>EN AW-1370</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1450 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1450">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al 99,5Ti</skos:altLabel>
+        <skos:prefLabel>EN AW-1450</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2001 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2001">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Cu5,5MgMn</skos:altLabel>
+        <skos:prefLabel>EN AW-2001</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2007 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2007">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Cu4PbMgMn</skos:altLabel>
+        <skos:prefLabel>EN AW-2007</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2011 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2011">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Cu6BiPb</skos:altLabel>
+        <skos:prefLabel>EN AW-2011</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2011A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2011A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Cu6BiPb(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-2011A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2014 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2014">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Cu4SiMg</skos:altLabel>
+        <skos:prefLabel>EN AW-2014</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2014A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2014A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Cu4SiMg(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-2014A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2016 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2016">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Cu4SiMgAg</skos:altLabel>
+        <skos:prefLabel>EN AW–2016</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2017A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2017A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Cu4MgSi(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-2017A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2024 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2024">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Cu4Mg1</skos:altLabel>
+        <skos:prefLabel>EN AW-2024</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2030 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2030">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Cu4PbMg</skos:altLabel>
+        <skos:prefLabel>EN AW-2030</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2031 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2031">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Cu2,5NiMg</skos:altLabel>
+        <skos:prefLabel>EN AW-2031</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2033 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2033">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Cu2,5MnSiMgBi</skos:altLabel>
+        <skos:prefLabel>EN AW-2033</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2117 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2117">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Cu2,5Mg</skos:altLabel>
+        <skos:prefLabel>EN AW-2117</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2124 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2124">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Cu4Mg1(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-2124</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2214 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2214">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Cu4SiMg(B)</skos:altLabel>
+        <skos:prefLabel>EN AW-2214</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2219 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2219">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Cu6Mn</skos:altLabel>
+        <skos:prefLabel>EN AW-2219</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2319 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2319">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Cu6Mn(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-2319</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2618A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2618A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Cu2Mg1,5Ni</skos:altLabel>
+        <skos:prefLabel>EN AW-2618A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3002 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3002">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mn0,2Mg0,1</skos:altLabel>
+        <skos:prefLabel>EN AW-3002</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3003 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3003">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mn1Cu</skos:altLabel>
+        <skos:prefLabel>EN AW-3003</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3004 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3004">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mn1Mg1</skos:altLabel>
+        <skos:prefLabel>EN AW-3004</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3005 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3005">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mn1Mg0,5</skos:altLabel>
+        <skos:prefLabel>EN AW-3005</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3005A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3005A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mn1Mg0,5(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-3005A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3017 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3017">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mn1Cu0,3</skos:altLabel>
+        <skos:prefLabel>EN AW-3017</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3102 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3102">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mn0,2</skos:altLabel>
+        <skos:prefLabel>EN AW-3102</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3103 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3103">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mn1</skos:altLabel>
+        <skos:prefLabel>EN AW-3103</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3103A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3103A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mn1(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-3103A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3104 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3104">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mn1Mg1Cu</skos:altLabel>
+        <skos:prefLabel>EN AW-3104</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3105 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3105">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mn0,5Mg0,5</skos:altLabel>
+        <skos:prefLabel>EN AW-3105</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3105A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3105A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mn0,5Mg0,5(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-3105A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3105B -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3105B">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mn0,6Mg0,5</skos:altLabel>
+        <skos:prefLabel>EN AW-3105B</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3207 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3207">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mn0,6</skos:altLabel>
+        <skos:prefLabel>EN AW-3207</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4004 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4004">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Si10Mg1,5</skos:altLabel>
+        <skos:prefLabel>EN AW-4004</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4006 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4006">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Si1Fe</skos:altLabel>
+        <skos:prefLabel>EN AW-4006</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4007 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4007">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Si1,5Mn</skos:altLabel>
+        <skos:prefLabel>EN AW-4007</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4015 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4015">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Si2Mn</skos:altLabel>
+        <skos:prefLabel>EN AW-4015</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4016 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4016">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Si2MnZn</skos:altLabel>
+        <skos:prefLabel>EN AW-4016</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4017 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4017">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al SiMnMgCu</skos:altLabel>
+        <skos:prefLabel>EN AW-4017</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4018 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4018">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Si7Mg</skos:altLabel>
+        <skos:prefLabel>EN AW-4018</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4025 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4025">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Si2MnCuMg</skos:altLabel>
+        <skos:prefLabel>EN AW-4025</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4032 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4032">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Si12,5MgCuNi</skos:altLabel>
+        <skos:prefLabel>EN AW-4032</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4043A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4043A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Si5(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-4043A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4045 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4045">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Si10</skos:altLabel>
+        <skos:prefLabel>EN AW-4045</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4046 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4046">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Si10Mg</skos:altLabel>
+        <skos:prefLabel>EN AW-4046</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4104 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4104">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Si10MgBi</skos:altLabel>
+        <skos:prefLabel>EN AW-4104</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4115 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4115">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Si2MnMgCu</skos:altLabel>
+        <skos:prefLabel>EN AW-4115</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4343 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4343">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-AI Si7,5</skos:altLabel>
+        <skos:prefLabel>EN AW-4343</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5005 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5005">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg1(B)</skos:altLabel>
+        <skos:prefLabel>EN AW-5005</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5005A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5005A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg1(C)</skos:altLabel>
+        <skos:prefLabel>EN AW-5005A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5006 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5006">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg1Mn0,5</skos:altLabel>
+        <skos:prefLabel>EN AW-5006</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5010 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5010">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg0,5Mn</skos:altLabel>
+        <skos:prefLabel>EN AW-5010</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5018 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5018">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg3Mn0,4</skos:altLabel>
+        <skos:prefLabel>EN AW-5018</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5018B -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5018B">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg3Mn0,6</skos:altLabel>
+        <skos:prefLabel>EN AW-5018B</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5019 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5019">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg5</skos:altLabel>
+        <skos:prefLabel>EN AW-5019</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5026 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5026">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg4,5MnSiFe</skos:altLabel>
+        <skos:prefLabel>EN AW-5026</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5040 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5040">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg1,5Mn</skos:altLabel>
+        <skos:prefLabel>EN AW-5040</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5042 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5042">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg3,5Mn</skos:altLabel>
+        <skos:prefLabel>EN AW-5042</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5049 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5049">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg2Mn0,8</skos:altLabel>
+        <skos:prefLabel>EN AW-5049</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5050 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5050">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg1,5(C)</skos:altLabel>
+        <skos:prefLabel>EN AW-5050</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5050A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5050A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg1,5(D)</skos:altLabel>
+        <skos:prefLabel>EN AW-5050A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5051A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5051A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg2(B)</skos:altLabel>
+        <skos:prefLabel>EN AW-5051A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5052 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5052">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg2,5</skos:altLabel>
+        <skos:prefLabel>EN AW-5052</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5058 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5058">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg5Pb1,5</skos:altLabel>
+        <skos:prefLabel>EN AW-5058</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5059 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5059">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg5,5MnZnZr</skos:altLabel>
+        <skos:prefLabel>EN AW-5059</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5070 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5070">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg4MnZn</skos:altLabel>
+        <skos:prefLabel>EN AW-5070</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5082 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5082">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg4,5</skos:altLabel>
+        <skos:prefLabel>EN AW-5082</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5083 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5083">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg4,5Mn0,7</skos:altLabel>
+        <skos:prefLabel>EN AW-5083</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5086 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5086">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg4</skos:altLabel>
+        <skos:prefLabel>EN AW-5086</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5087 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5087">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg4,5MnZr</skos:altLabel>
+        <skos:prefLabel>EN AW-5087</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5088 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5088">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg5Mn0,4</skos:altLabel>
+        <skos:prefLabel>EN AW-5088</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5110 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5110">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al 99,85Mg0,5</skos:altLabel>
+        <skos:prefLabel>EN AW-5110</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5119 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5119">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg5(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-5119</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5119A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5119A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg5(B)</skos:altLabel>
+        <skos:prefLabel>EN AW-5119A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5149 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5149">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg2Mn0,8(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-5149</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5154A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5154A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg3,5(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-5154A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5154B -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5154B">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg3,5Mn0,3</skos:altLabel>
+        <skos:prefLabel>EN AW-5154B</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5182 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5182">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg4,5Mn0,4</skos:altLabel>
+        <skos:prefLabel>EN AW-5182</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5183 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5183">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg4,5Mn0,7(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-5183</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5183A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5183A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg4,5Mn0,7(C)</skos:altLabel>
+        <skos:prefLabel>EN AW-5183A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5186 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5186">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg4Mn0,4</skos:altLabel>
+        <skos:prefLabel>EN AW-5186</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5187 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5187">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg4,5MnZr</skos:altLabel>
+        <skos:prefLabel>EN AW-5187</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5210 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5210">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al 99,9Mg0,5</skos:altLabel>
+        <skos:prefLabel>EN AW-5210</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5249 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5249">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg2Mn0,8Zr</skos:altLabel>
+        <skos:prefLabel>EN AW-5249</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5251 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5251">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg2Mn0,3</skos:altLabel>
+        <skos:prefLabel>EN AW-5251</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5252 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5252">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg2,5(B)</skos:altLabel>
+        <skos:prefLabel>EN AW-5252</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5283A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5283A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg4,5Mn0,7(B)</skos:altLabel>
+        <skos:prefLabel>EN AW-5283A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5305 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5305">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al 99,85Mg1</skos:altLabel>
+        <skos:prefLabel>EN AW-5305</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5310 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5310">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al 99,98Mg0,5</skos:altLabel>
+        <skos:prefLabel>EN AW-5310</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5352 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5352">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg2,5(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-5352</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5354 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5354">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg2,5MnZr</skos:altLabel>
+        <skos:prefLabel>EN AW-5354</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5356 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5356">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg5Cr(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-5356</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5356A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5356A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg5Cr(B)</skos:altLabel>
+        <skos:prefLabel>EN AW-5356A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5383 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5383">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg4,5Mn0,9</skos:altLabel>
+        <skos:prefLabel>EN AW-5383</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5449 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5449">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg2Mn0,8(B)</skos:altLabel>
+        <skos:prefLabel>EN AW-5449</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5449A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5449A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg2Mn0,8(C)</skos:altLabel>
+        <skos:prefLabel>EN AW-5449A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5454 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5454">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg3Mn</skos:altLabel>
+        <skos:prefLabel>EN AW-5454</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5456 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5456">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg5Mn1</skos:altLabel>
+        <skos:prefLabel>EN AW-5456</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5456A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5456A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg5Mn1(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-5456A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5456B -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5456B">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg5Mn1(B)</skos:altLabel>
+        <skos:prefLabel>EN AW-5456B</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5505 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5505">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al 99,9Mg1</skos:altLabel>
+        <skos:prefLabel>EN AW-5505</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5554 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5554">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg3Mn(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-5554</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5556A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5556A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg5Mn</skos:altLabel>
+        <skos:prefLabel>EN AW-5556A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5556B -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5556B">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg5Mn(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-5556B</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5605 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5605">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al 99,98Mg1</skos:altLabel>
+        <skos:prefLabel>EN AW-5605</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5654 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5654">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg3,5Cr</skos:altLabel>
+        <skos:prefLabel>EN AW-5654</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5654A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5654A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg3,5Cr(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-5654A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5657 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5657">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al 99,85Mg1(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-5657</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5754 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5754">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg3</skos:altLabel>
+        <skos:prefLabel>EN AW-5754</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6003 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6003">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg1Si0,8</skos:altLabel>
+        <skos:prefLabel>EN AW-6003</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6005 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6005">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al SiMg</skos:altLabel>
+        <skos:prefLabel>EN AW-6005</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6005A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6005A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al SiMg(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-6005A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6005B -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6005B">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al SiMg(B)</skos:altLabel>
+        <skos:prefLabel>EN AW-6005B</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6008 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6008">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al SiMgV</skos:altLabel>
+        <skos:prefLabel>EN AW-6008</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6011 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6011">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-AlMg0,9Si0,9Cu</skos:altLabel>
+        <skos:prefLabel>EN AW-6011</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6012 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6012">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al MgSiPb</skos:altLabel>
+        <skos:prefLabel>EN AW-6012</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6012A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6012A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al MgSiSn</skos:altLabel>
+        <skos:prefLabel>EN AW-6012A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6013 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6013">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-AlMg1Si0,8CuMn</skos:altLabel>
+        <skos:prefLabel>EN AW-6013</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6014 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6014">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg0,6Si0,6V</skos:altLabel>
+        <skos:prefLabel>EN AW-6014</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6015 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6015">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg1Si0,3Cu</skos:altLabel>
+        <skos:prefLabel>EN AW-6015</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6016 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6016">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Si1,2Mg0,4</skos:altLabel>
+        <skos:prefLabel>EN AW-6016</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6018 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6018">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg1SiPbMn</skos:altLabel>
+        <skos:prefLabel>EN AW-6018</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6023 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6023">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Si1Sn1MgBi</skos:altLabel>
+        <skos:prefLabel>EN AW-6023</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6025 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6025">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-AlMg2,5SiMnCu</skos:altLabel>
+        <skos:prefLabel>EN AW-6025</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6026 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6026">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al MgSiBi</skos:altLabel>
+        <skos:prefLabel>EN AW-6026</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6050 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6050">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Si1,5FeMgNi</skos:altLabel>
+        <skos:prefLabel>EN AW-6050</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6056 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6056">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Si1MgCuMn</skos:altLabel>
+        <skos:prefLabel>EN AW-6056</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6060 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6060">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al MgSi</skos:altLabel>
+        <skos:prefLabel>EN AW-6060</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6061 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6061">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg1SiCu</skos:altLabel>
+        <skos:prefLabel>EN AW-6061</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6061A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6061A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg1SiCu(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-6061A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6063 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6063">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg0,7Si</skos:altLabel>
+        <skos:prefLabel>EN AW-6063</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6063A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6063A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg0,7Si(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-6063A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6064A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6064A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg1SiBi</skos:altLabel>
+        <skos:prefLabel>EN AW-6064A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6065 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6065">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg1Bi1Si</skos:altLabel>
+        <skos:prefLabel>EN AW-6065</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6081 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6081">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Si0,9MgMn</skos:altLabel>
+        <skos:prefLabel>EN AW-6081</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6082 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6082">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Si1MgMn</skos:altLabel>
+        <skos:prefLabel>EN AW-6082</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6082A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6082A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Si1MgMn(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-6082A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6101 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6101">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al MgSi</skos:altLabel>
+        <skos:prefLabel>EN AW-6101</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6101A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6101A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al MgSi(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-6101A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6101B -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6101B">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al MgSi(B)</skos:altLabel>
+        <skos:prefLabel>EN AW-6101B</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6106 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6106">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al MgSiMn</skos:altLabel>
+        <skos:prefLabel>EN AW-6106</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6110A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6110A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-AlMg0,9Si0,9MnCu</skos:altLabel>
+        <skos:prefLabel>EN AW-6110A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6181 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6181">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al SiMg0,8</skos:altLabel>
+        <skos:prefLabel>EN AW-6181</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6182 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6182">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Si1MgZr</skos:altLabel>
+        <skos:prefLabel>EN AW-6182</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6201 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6201">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg0,7Si</skos:altLabel>
+        <skos:prefLabel>EN AW-6201</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6261 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6261">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg1SiCuMn</skos:altLabel>
+        <skos:prefLabel>EN AW-6261</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6262A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6262A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg1SiSn</skos:altLabel>
+        <skos:prefLabel>EN AW-6262A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6351 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6351">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al SiMg0,5Mn</skos:altLabel>
+        <skos:prefLabel>EN AW-6351</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6351A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6351A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-AlSiMg0,5Mn(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-6351A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6360 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6360">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al SiMgMn</skos:altLabel>
+        <skos:prefLabel>EN AW-6360</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6401 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6401">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al 99,9MgSi</skos:altLabel>
+        <skos:prefLabel>EN AW-6401</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6463 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6463">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Mg0,7Si(B)</skos:altLabel>
+        <skos:prefLabel>EN AW-6463</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6951 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6951">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al MgSi0,3Cu</skos:altLabel>
+        <skos:prefLabel>EN AW-6951</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7003 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7003">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Zn6Mg0,8Zr</skos:altLabel>
+        <skos:prefLabel>EN AW-7003</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7005 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7005">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Zn4,5Mg1,5Mn</skos:altLabel>
+        <skos:prefLabel>EN AW-7005</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7009 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7009">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Zn5,5MgCuAg</skos:altLabel>
+        <skos:prefLabel>EN AW-7009</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7010 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7010">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Zn6MgCu</skos:altLabel>
+        <skos:prefLabel>EN AW-7010</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7012 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7012">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Zn6Mg2Cu</skos:altLabel>
+        <skos:prefLabel>EN AW-7012</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7015 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7015">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Zn5Mg1,5CuZr</skos:altLabel>
+        <skos:prefLabel>EN AW-7015</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7016 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7016">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Zn4,5Mg1Cu</skos:altLabel>
+        <skos:prefLabel>EN AW-7016</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7019 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7019">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Zn4Mg2</skos:altLabel>
+        <skos:prefLabel>EN AW-7019</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7020 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7020">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Zn4,5Mg1</skos:altLabel>
+        <skos:prefLabel>EN AW-7020</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7021 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7021">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Zn5,5Mg1,5</skos:altLabel>
+        <skos:prefLabel>EN AW-7021</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7022 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7022">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Zn5Mg3Cu</skos:altLabel>
+        <skos:prefLabel>EN AW-7022</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7026 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7026">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Zn5Mg1,5Cu</skos:altLabel>
+        <skos:prefLabel>EN AW-7026</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7029 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7029">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Zn4,5Mg1,5Cu</skos:altLabel>
+        <skos:prefLabel>EN AW-7029</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7030 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7030">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Zn5,5Mg1Cu</skos:altLabel>
+        <skos:prefLabel>EN AW-7030</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7039 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7039">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Zn4Mg3</skos:altLabel>
+        <skos:prefLabel>EN AW-7039</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7050 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7050">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Zn6CuMgZr</skos:altLabel>
+        <skos:prefLabel>EN AW-7050</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7060 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7060">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Zn7CuMg</skos:altLabel>
+        <skos:prefLabel>EN AW-7060</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7072 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7072">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Zn1</skos:altLabel>
+        <skos:prefLabel>EN AW-7072</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7075 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7075">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Zn5,5MgCu</skos:altLabel>
+        <skos:prefLabel>EN AW-7075</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7108 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7108">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Zn5Mg1Zr</skos:altLabel>
+        <skos:prefLabel>EN AW-7108</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7108A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7108A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Zn5Mg1Zr</skos:altLabel>
+        <skos:prefLabel>EN AW-7108A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7116 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7116">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Zn4,5Mg1Cu0,8</skos:altLabel>
+        <skos:prefLabel>EN AW-7116</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7129 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7129">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Zn4,5Mg1,5Cu(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-7129</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7149 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7149">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Zn8MgCu(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-7149</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7150 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7150">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Zn6CuMgZr(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-7150</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7175 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7175">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Zn5,5MgCu(B)</skos:altLabel>
+        <skos:prefLabel>EN AW-7175</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7178 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7178">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Zn7MgCu</skos:altLabel>
+        <skos:prefLabel>EN AW-7178</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7475 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7475">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Zn5,5MgCu(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-7475</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8006 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8006">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Fe1,5Mn</skos:altLabel>
+        <skos:prefLabel>EN AW-8006</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8008 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8008">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Fe1Mn0,8</skos:altLabel>
+        <skos:prefLabel>EN AW-8008</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8011A -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8011A">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al FeSi(A)</skos:altLabel>
+        <skos:prefLabel>EN AW-8011A</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8014 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8014">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Fe1,5Mn0,4</skos:altLabel>
+        <skos:prefLabel>EN AW-8014</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8015 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8015">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al FeMn0,3</skos:altLabel>
+        <skos:prefLabel>EN AW-8015</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8016 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8016">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Fe1Mn</skos:altLabel>
+        <skos:prefLabel>EN AW-8016</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8018 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8018">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al FeSiCu</skos:altLabel>
+        <skos:prefLabel>EN AW-8018</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8021B -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8021B">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Fe1,5</skos:altLabel>
+        <skos:prefLabel>EN AW-8021B</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8026 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8026">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Fe1Mn0,7Mg</skos:altLabel>
+        <skos:prefLabel>EN AW-8026</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8030 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8030">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al FeCu</skos:altLabel>
+        <skos:prefLabel>EN AW-8030</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8079 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8079">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al Fe1Si</skos:altLabel>
+        <skos:prefLabel>EN AW-8079</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8111 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8111">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al FeSi(B)</skos:altLabel>
+        <skos:prefLabel>EN AW-8111</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8112 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8112">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al 95</skos:altLabel>
+        <skos:prefLabel>EN AW-8112</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8176 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8176">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al FeSi</skos:altLabel>
+        <skos:prefLabel>EN AW-8176</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8211 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8211">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Digital_material_identifier"/>
+        <skos:altLabel>EN AW-Al FeSi(C)</skos:altLabel>
+        <skos:prefLabel>EN AW-8211</skos:prefLabel>
+        <prov:wasQuotedFrom rdf:resource="https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.gleif.org/lei/52990058GPJXLHCWPN04 -->
+
+
+    <owl:NamedIndividual rdf:about="https://www.gleif.org/lei/52990058GPJXLHCWPN04">
+        <rdf:type rdf:resource="https://w3id.org/dmi/Standards_defining_organisation"/>
+        <terms:identifier>https://www.gleif.org/lei/52990058GPJXLHCWPN04</terms:identifier>
+        <rdfs:label>DIN Deutsches Institut für Normung e. V</rdfs:label>
+        <foaf:homepage rdf:resource="https://www.din.de"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

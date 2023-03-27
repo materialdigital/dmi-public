@@ -1,0 +1,3260 @@
+[ {
+  "@id" : "http://purl.org/dc/terms/identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/ontology/bibo/Standard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#altLabel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#wasQuotedFrom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/homepage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/dmi/Digital_material_identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/dmi/Standards_defining_organisation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "https://w3id.org/dmi"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://dx.doi.org/10.31030/3315136"
+  } ],
+  "http://purl.org/dc/terms/publisher" : [ {
+    "@id" : "https://www.gleif.org/lei/52990058GPJXLHCWPN04"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://purl.org/ontology/bibo/Standard"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "DIN EN 573-3:2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1050A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al 99,5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-1050A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1060",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al 99,6"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-1060"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1070A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al 99,7"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-1070A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1080A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al 99,8(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-1080A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1085",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al 99,85"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-1085"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1090",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al 99,90"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-1090"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1098",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al 99,98"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-1098"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1100",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al 99,0Cu"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-1100"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1110",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al 99,1"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-1110"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1198",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al 99,98(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-1198"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1199",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al 99,99"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-1199"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1200",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al 99,0"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-1200"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1200A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al 99,0(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-1200A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1235",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al 99,35"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-1235"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1350",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al 99,5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-1350"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1350A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al 99,5(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-1350A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1370",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al 99,7"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-1370"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-1450",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al 99,5Ti"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-1450"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Cu5,5MgMn"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-2001"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2007",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Cu4PbMgMn"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-2007"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2011",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Cu6BiPb"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-2011"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2011A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Cu6BiPb(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-2011A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2014",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Cu4SiMg"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-2014"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2014A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Cu4SiMg(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-2014A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2016",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Cu4SiMgAg"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW–2016"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2017A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Cu4MgSi(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-2017A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2024",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Cu4Mg1"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-2024"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2030",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Cu4PbMg"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-2030"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2031",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Cu2,5NiMg"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-2031"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2033",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Cu2,5MnSiMgBi"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-2033"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2117",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Cu2,5Mg"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-2117"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2124",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Cu4Mg1(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-2124"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2214",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Cu4SiMg(B)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-2214"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2219",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Cu6Mn"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-2219"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2319",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Cu6Mn(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-2319"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-2618A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Cu2Mg1,5Ni"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-2618A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mn0,2Mg0,1"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-3002"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mn1Cu"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-3003"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mn1Mg1"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-3004"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mn1Mg0,5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-3005"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3005A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mn1Mg0,5(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-3005A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3017",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mn1Cu0,3"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-3017"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3102",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mn0,2"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-3102"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3103",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mn1"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-3103"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3103A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mn1(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-3103A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3104",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mn1Mg1Cu"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-3104"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3105",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mn0,5Mg0,5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-3105"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3105A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mn0,5Mg0,5(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-3105A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3105B",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mn0,6Mg0,5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-3105B"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-3207",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mn0,6"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-3207"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Si10Mg1,5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-4004"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4006",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Si1Fe"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-4006"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4007",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Si1,5Mn"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-4007"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4015",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Si2Mn"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-4015"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4016",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Si2MnZn"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-4016"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4017",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al SiMnMgCu"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-4017"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4018",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Si7Mg"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-4018"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4025",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Si2MnCuMg"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-4025"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4032",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Si12,5MgCuNi"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-4032"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4043A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Si5(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-4043A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4045",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Si10"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-4045"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4046",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Si10Mg"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-4046"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4104",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Si10MgBi"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-4104"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4115",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Si2MnMgCu"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-4115"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-4343",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-AI Si7,5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-4343"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg1(B)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5005"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5005A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg1(C)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5005A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5006",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg1Mn0,5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5006"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5010",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg0,5Mn"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5010"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5018",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg3Mn0,4"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5018"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5018B",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg3Mn0,6"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5018B"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5019",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5019"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5026",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg4,5MnSiFe"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5026"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5040",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg1,5Mn"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5040"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5042",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg3,5Mn"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5042"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5049",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg2Mn0,8"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5049"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5050",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg1,5(C)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5050"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5050A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg1,5(D)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5050A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5051A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg2(B)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5051A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5052",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg2,5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5052"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5058",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg5Pb1,5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5058"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5059",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg5,5MnZnZr"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5059"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5070",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg4MnZn"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5070"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5082",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg4,5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5082"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5083",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg4,5Mn0,7"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5083"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5086",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg4"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5086"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5087",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg4,5MnZr"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5087"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5088",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg5Mn0,4"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5088"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5110",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al 99,85Mg0,5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5110"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5119",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg5(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5119"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5119A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg5(B)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5119A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5149",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg2Mn0,8(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5149"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5154A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg3,5(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5154A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5154B",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg3,5Mn0,3"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5154B"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5182",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg4,5Mn0,4"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5182"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5183",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg4,5Mn0,7(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5183"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5183A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg4,5Mn0,7(C)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5183A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5186",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg4Mn0,4"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5186"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5187",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg4,5MnZr"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5187"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5210",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al 99,9Mg0,5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5210"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5249",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg2Mn0,8Zr"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5249"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5251",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg2Mn0,3"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5251"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5252",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg2,5(B)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5252"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5283A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg4,5Mn0,7(B)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5283A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5305",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al 99,85Mg1"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5305"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5310",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al 99,98Mg0,5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5310"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5352",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg2,5(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5352"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5354",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg2,5MnZr"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5354"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5356",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg5Cr(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5356"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5356A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg5Cr(B)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5356A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5383",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg4,5Mn0,9"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5383"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5449",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg2Mn0,8(B)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5449"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5449A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg2Mn0,8(C)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5449A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5454",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg3Mn"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5454"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5456",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg5Mn1"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5456"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5456A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg5Mn1(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5456A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5456B",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg5Mn1(B)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5456B"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5505",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al 99,9Mg1"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5505"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5554",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg3Mn(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5554"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5556A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg5Mn"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5556A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5556B",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg5Mn(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5556B"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5605",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al 99,98Mg1"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5605"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5654",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg3,5Cr"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5654"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5654A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg3,5Cr(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5654A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5657",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al 99,85Mg1(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5657"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-5754",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg3"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-5754"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg1Si0,8"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6003"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al SiMg"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6005"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6005A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al SiMg(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6005A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6005B",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al SiMg(B)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6005B"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6008",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al SiMgV"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6008"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6011",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al\rMg0,9Si0,9Cu"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6011"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6012",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al MgSiPb"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6012"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6012A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al MgSiSn"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6012A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6013",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al\rMg1Si0,8CuMn"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6013"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6014",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg0,6Si0,6V"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6014"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6015",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg1Si0,3Cu"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6015"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6016",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Si1,2Mg0,4"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6016"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6018",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg1SiPbMn"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6018"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6023",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Si1Sn1MgBi"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6023"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6025",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al\rMg2,5SiMnCu"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6025"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6026",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al MgSiBi"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6026"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6050",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Si1,5FeMgNi"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6050"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6056",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Si1MgCuMn"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6056"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6060",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al MgSi"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6060"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6061",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg1SiCu"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6061"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6061A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg1SiCu(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6061A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6063",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg0,7Si"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6063"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6063A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg0,7Si(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6063A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6064A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg1SiBi"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6064A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6065",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg1Bi1Si"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6065"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6081",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Si0,9MgMn"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6081"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6082",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Si1MgMn"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6082"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6082A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Si1MgMn(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6082A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al MgSi"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6101"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6101A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al MgSi(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6101A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6101B",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al MgSi(B)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6101B"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6106",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al MgSiMn"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6106"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6110A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al\rMg0,9Si0,9MnCu"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6110A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6181",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al SiMg0,8"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6181"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6182",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Si1MgZr"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6182"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6201",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg0,7Si"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6201"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6261",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg1SiCuMn"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6261"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6262A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg1SiSn"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6262A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6351",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al SiMg0,5Mn"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6351"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6351A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al\rSiMg0,5Mn(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6351A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6360",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al SiMgMn"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6360"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6401",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al 99,9MgSi"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6401"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6463",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Mg0,7Si(B)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6463"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-6951",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al MgSi0,3Cu"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-6951"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Zn6Mg0,8Zr"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-7003"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Zn4,5Mg1,5Mn"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-7005"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7009",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Zn5,5MgCuAg"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-7009"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7010",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Zn6MgCu"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-7010"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7012",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Zn6Mg2Cu"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-7012"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7015",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Zn5Mg1,5CuZr"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-7015"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7016",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Zn4,5Mg1Cu"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-7016"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7019",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Zn4Mg2"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-7019"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7020",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Zn4,5Mg1"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-7020"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7021",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Zn5,5Mg1,5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-7021"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7022",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Zn5Mg3Cu"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-7022"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7026",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Zn5Mg1,5Cu"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-7026"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7029",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Zn4,5Mg1,5Cu"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-7029"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7030",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Zn5,5Mg1Cu"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-7030"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7039",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Zn4Mg3"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-7039"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7050",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Zn6CuMgZr"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-7050"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7060",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Zn7CuMg"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-7060"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7072",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Zn1"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-7072"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7075",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Zn5,5MgCu"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-7075"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7108",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Zn5Mg1Zr"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-7108"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7108A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Zn5Mg1Zr"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-7108A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7116",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Zn4,5Mg1Cu0,8"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-7116"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7129",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Zn4,5Mg1,5Cu(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-7129"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7149",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Zn8MgCu(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-7149"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7150",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Zn6CuMgZr(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-7150"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7175",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Zn5,5MgCu(B)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-7175"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7178",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Zn7MgCu"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-7178"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-7475",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Zn5,5MgCu(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-7475"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8006",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Fe1,5Mn"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-8006"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8008",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Fe1Mn0,8"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-8008"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8011A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al FeSi(A)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-8011A"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8014",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Fe1,5Mn0,4"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-8014"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8015",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al FeMn0,3"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-8015"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8016",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Fe1Mn"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-8016"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8018",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al FeSiCu"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-8018"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8021B",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Fe1,5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-8021B"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8026",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Fe1Mn0,7Mg"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-8026"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8030",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al FeCu"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-8030"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8079",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al Fe1Si"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-8079"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8111",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al FeSi(B)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-8111"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8112",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al 95"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-8112"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8176",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al FeSi"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-8176"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09/EN_AW-8211",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Digital_material_identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "EN AW-Al FeSi(C)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "EN AW-8211"
+  } ],
+  "http://www.w3.org/ns/prov#wasQuotedFrom" : [ {
+    "@id" : "https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2022-09"
+  } ]
+}, {
+  "@id" : "https://www.gleif.org/lei/52990058GPJXLHCWPN04",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "https://www.gleif.org/lei/52990058GPJXLHCWPN04"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/dmi/Standards_defining_organisation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "DIN Deutsches Institut für Normung e. V"
+  } ],
+  "http://xmlns.com/foaf/0.1/homepage" : [ {
+    "@id" : "https://www.din.de"
+  } ]
+} ]

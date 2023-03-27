@@ -1,0 +1,275 @@
+@prefix : <https://w3id.org/dmi#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://w3id.org/dmi#> .
+
+<https://w3id.org/dmi> rdf:type owl:Ontology ;
+                        <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by-nd/4.0"^^xsd:anyURI ;
+                        rdfs:label "Digital Material Identifier ontology" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#altLabel
+<http://www.w3.org/2004/02/skos/core#altLabel> rdf:type owl:AnnotationProperty ;
+                                               rdfs:label "skos:altLabel" ;
+                                               rdfs:range xsd:string ;
+                                               rdfs:domain <https://w3id.org/dmi/Digital_material_identifier> .
+
+
+###  http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> rdf:type owl:AnnotationProperty ;
+                                                rdfs:label "skos:prefLabel" ;
+                                                rdfs:range xsd:string ;
+                                                rdfs:domain <https://w3id.org/dmi/Digital_material_identifier> .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> rdf:type owl:ObjectProperty ;
+                                     rdfs:domain <http://purl.org/dc/terms/BibliographicResource> ;
+                                     rdfs:range <http://purl.org/dc/terms/Agent> ;
+                                     rdfs:comment "An entity responsible for making the resource available."@en ;
+                                     rdfs:label "dcterms:publisher"@en .
+
+
+###  http://www.w3.org/ns/prov#wasQuotedFrom
+<http://www.w3.org/ns/prov#wasQuotedFrom> rdf:type owl:ObjectProperty ;
+                                          rdfs:domain <https://w3id.org/dmi/Digital_material_identifier> ;
+                                          rdfs:range <http://purl.org/dc/terms/BibliographicResource> ;
+                                          rdfs:comment "A quotation is the repeat of (some or all of) an entity, such as text or image, by someone who may or may not be its original author. Quotation is a particular case of derivation."@en ;
+                                          rdfs:label "prov:wasQuotedFrom"@en .
+
+
+###  http://xmlns.com/foaf/0.1/#term_homepage
+<http://xmlns.com/foaf/0.1/#term_homepage> rdf:type owl:ObjectProperty ;
+                                           rdfs:domain <http://purl.org/dc/terms/Agent> ;
+                                           rdfs:range <http://purl.org/ontology/bibo/Website> ;
+                                           rdfs:label "foaf:homepage"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://purl.org/dc/terms/identifier
+<http://purl.org/dc/terms/identifier> rdf:type owl:DatatypeProperty ;
+                                      rdfs:subPropertyOf owl:topDataProperty ;
+                                      rdfs:comment "An unambiguous reference to the resource within a given context." ;
+                                      rdfs:label "dcterms:identifier"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://purl.org/dc/terms/Agent
+<http://purl.org/dc/terms/Agent> rdf:type owl:Class ;
+                                 owl:disjointWith <http://purl.org/dc/terms/BibliographicResource> ,
+                                                  <https://w3id.org/dmi/Digital_material_identifier> ;
+                                 rdfs:comment "A resource that acts or has the power to act."@en ;
+                                 rdfs:label "dcterms:Agent"@en .
+
+
+###  http://purl.org/dc/terms/BibliographicResource
+<http://purl.org/dc/terms/BibliographicResource> rdf:type owl:Class ;
+                                                 rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty <http://purl.org/dc/terms/publisher> ;
+                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                   owl:onClass <http://purl.org/dc/terms/Agent>
+                                                                 ] ;
+                                                 owl:disjointWith <https://w3id.org/dmi/Digital_material_identifier> ;
+                                                 rdfs:comment "A book, article, or other documentary resource."@en ;
+                                                 rdfs:label "dcterms:Bibliographic Resource"@en .
+
+
+###  http://purl.org/ontology/bibo/Patent
+<http://purl.org/ontology/bibo/Patent> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://purl.org/dc/terms/BibliographicResource> ;
+                                       rdfs:label "bibo:Patent"@en .
+
+
+###  http://purl.org/ontology/bibo/Report
+<http://purl.org/ontology/bibo/Report> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://purl.org/dc/terms/BibliographicResource> ;
+                                       rdfs:label "bibo:Report"@en .
+
+
+###  http://purl.org/ontology/bibo/Specification
+<http://purl.org/ontology/bibo/Specification> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://purl.org/dc/terms/BibliographicResource> ;
+                                              rdfs:comment "A document describing a specification."@en ;
+                                              rdfs:label "bibo:Specification"@en .
+
+
+###  http://purl.org/ontology/bibo/Standard
+<http://purl.org/ontology/bibo/Standard> rdf:type owl:Class ;
+                                         rdfs:subClassOf <http://purl.org/ontology/bibo/Specification> ;
+                                         rdfs:comment "A document describing a standard: a specification organized through a standards body."@en ;
+                                         rdfs:label "bibo:Standard"@en .
+
+
+###  http://purl.org/ontology/bibo/Website
+<http://purl.org/ontology/bibo/Website> rdf:type owl:Class ;
+                                        rdfs:comment "A group of Webpages accessible on the Web."@en ;
+                                        rdfs:label "bibo:Website"@en .
+
+
+###  https://schema.org/Consortium
+<https://schema.org/Consortium> rdf:type owl:Class ;
+                                rdfs:subClassOf <http://purl.org/dc/terms/Agent> ;
+                                rdfs:comment "A Consortium is a membership Organization whose members are typically Organizations."@en ;
+                                rdfs:label "schema:Consortium"@en .
+
+
+###  https://schema.org/Corporation
+<https://schema.org/Corporation> rdf:type owl:Class ;
+                                 rdfs:subClassOf <http://purl.org/dc/terms/Agent> ;
+                                 rdfs:comment "A Corporation that issues material datasheets for their products."@en ;
+                                 rdfs:label "schema:Corporation"@en .
+
+
+###  https://schema.org/Project
+<https://schema.org/Project> rdf:type owl:Class ;
+                             rdfs:subClassOf <http://purl.org/dc/terms/Agent> ;
+                             rdfs:comment "An enterprise (potentially individual but typically collaborative), planned to achieve a particular aim"@en ;
+                             rdfs:label "schema:Project"@en .
+
+
+###  https://w3id.org/dmi/Digital_material_identifier
+<https://w3id.org/dmi/Digital_material_identifier> rdf:type owl:Class ;
+                                                   rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                     owl:onProperty <http://www.w3.org/ns/prov#wasQuotedFrom> ;
+                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                     owl:onClass <http://purl.org/dc/terms/BibliographicResource>
+                                                                   ] ;
+                                                   rdfs:comment "A dmi:DigitalMaterialIdentifier is a resource identifier (URI or IRI) that represents the specification of a material (in the sense of a material class) described in a bibliographic resource or specification document. The specification document can be, e.g., a standard, a  datasheet, or any other citable bibliographic resource. Typically, a specification document requires some qualities that a material (in the sense of a portion of matter) has to comply with. Typical requirements include chemical compositions or physical properties of the material."@en ;
+                                                   rdfs:label "Digital Material Identifer (DMI)" .
+
+
+###  https://w3id.org/dmi/Material_datasheet
+<https://w3id.org/dmi/Material_datasheet> rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://purl.org/ontology/bibo/Specification> ;
+                                          rdfs:comment "Any kind of material datasheet, typically issued by the manufacturer of a material." ;
+                                          rdfs:label "Material datasheet"@en .
+
+
+###  https://w3id.org/dmi/Standards_defining_organisation
+<https://w3id.org/dmi/Standards_defining_organisation> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://schema.org/Consortium> ;
+                                                       rdfs:comment "A Consortium whose primary purpose is to publish standards. Typically a member organisation of ISO. For other organisations, consider Consortium or Corporation."@en ;
+                                                       rdfs:label "Standards-defining organisatiion"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://www.aluminum.org
+<https://www.aluminum.org> rdf:type owl:NamedIndividual ,
+                                    <http://purl.org/ontology/bibo/Website> ;
+                           <http://www.w3.org/2004/02/skos/core#prefLabel> "www.aluminum.org (example)" .
+
+
+###  https://www.din.de
+<https://www.din.de> rdf:type owl:NamedIndividual ,
+                              <http://purl.org/ontology/bibo/Website> ;
+                     <http://www.w3.org/2004/02/skos/core#prefLabel> "www.din.de (example)" .
+
+
+###  https://www.otto-fuchs.com
+<https://www.otto-fuchs.com> rdf:type owl:NamedIndividual ,
+                                      <http://purl.org/ontology/bibo/Website> ;
+                             rdfs:label "www.otto-fuchs.com (example)" .
+
+
+###  https://w3id.org/dmi/www.aluminum.org
+<https://w3id.org/dmi/www.aluminum.org> rdf:type owl:NamedIndividual ,
+                                                 <https://schema.org/Consortium> ;
+                                        <http://xmlns.com/foaf/0.1/#term_homepage> <https://www.aluminum.org> ;
+                                        <http://purl.org/dc/terms/identifier> "https://www.wikidata.org/wiki/Q7713269" ;
+                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "The Aluminum Association, Inc.(example)" .
+
+
+###  https://w3id.org/dmi/www.din.de
+<https://w3id.org/dmi/www.din.de> rdf:type owl:NamedIndividual ,
+                                           <https://w3id.org/dmi/Standards_defining_organisation> ;
+                                  <http://xmlns.com/foaf/0.1/#term_homepage> <https://www.din.de> ;
+                                  <http://purl.org/dc/terms/identifier> "https://www.gleif.org/lei/52990058GPJXLHCWPN04" ;
+                                  rdfs:label "DIN e.V. (example)" .
+
+
+###  https://w3id.org/dmi/www.otto-fuchs.com
+<https://w3id.org/dmi/www.otto-fuchs.com> rdf:type owl:NamedIndividual ,
+                                                   <https://schema.org/Corporation> ;
+                                          <http://xmlns.com/foaf/0.1/#term_homepage> <https://www.otto-fuchs.com> ;
+                                          <http://purl.org/dc/terms/identifier> "https://www.gleif.org/lei/529900XQ5VE29M4YG662" ;
+                                          rdfs:label "OTTO FUCHS Kommanditgesellschaft (example)" .
+
+
+###  https://w3id.org/dmi/www.aluminum.org/TEAL_SHEETS_2018-08
+<https://w3id.org/dmi/www.aluminum.org/TEAL_SHEETS_2018-08> rdf:type owl:NamedIndividual ,
+                                                                     <http://purl.org/ontology/bibo/Specification> ;
+                                                            <http://purl.org/dc/terms/publisher> <https://w3id.org/dmi/www.aluminum.org> ;
+                                                            <http://purl.org/dc/terms/identifier> "https://urn.issn.org/urn:issn:2377-6692" ;
+                                                            <http://www.w3.org/2004/02/skos/core#altLabel> "International Alloy Designations and Chemical Composition Limits for Wrought Aluminum and Wrought Aluminum Alloys (example)" ;
+                                                            <http://www.w3.org/2004/02/skos/core#prefLabel> "Teal sheets 2018 (example)" .
+
+
+###  https://w3id.org/dmi/www.aluminum.org/TEAL_SHEET_2018-08/2618A
+<https://w3id.org/dmi/www.aluminum.org/TEAL_SHEET_2018-08/2618A> rdf:type owl:NamedIndividual ,
+                                                                          <https://w3id.org/dmi/Digital_material_identifier> ;
+                                                                 <http://www.w3.org/ns/prov#wasQuotedFrom> <https://w3id.org/dmi/www.aluminum.org/TEAL_SHEETS_2018-08> ;
+                                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "2618A (example)" .
+
+
+###  https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2019-10
+<https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2019-10> rdf:type owl:NamedIndividual ,
+                                                                <http://purl.org/ontology/bibo/Standard> ;
+                                                       <http://purl.org/dc/terms/publisher> <https://w3id.org/dmi/www.din.de> ;
+                                                       <http://purl.org/dc/terms/identifier> "https://dx.doi.org/10.31030/3061181" ;
+                                                       rdfs:label "DIN EN 573-3:2019-10 (example)" .
+
+
+###  https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2019-10/EN_AW-2618A
+<https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2019-10/EN_AW-2618A> rdf:type owl:NamedIndividual ,
+                                                                            <https://w3id.org/dmi/Digital_material_identifier> ;
+                                                                   <http://www.w3.org/ns/prov#wasQuotedFrom> <https://w3id.org/dmi/www.din.de/DIN_EN_573-3_2019-10> ;
+                                                                   <http://www.w3.org/2004/02/skos/core#altLabel> "EN AW-Al Cu2Mg1,5Ni (example)" ;
+                                                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "EN AW-2618A (example)" .
+
+
+###  https://w3id.org/dmi/www.otto-fuchs.com/datasheet_AN40_rev1
+<https://w3id.org/dmi/www.otto-fuchs.com/datasheet_AN40_rev1> rdf:type owl:NamedIndividual ,
+                                                                       <https://w3id.org/dmi/Material_datasheet> ;
+                                                              <http://purl.org/dc/terms/publisher> <https://w3id.org/dmi/www.otto-fuchs.com> ;
+                                                              <http://purl.org/dc/terms/identifier> "https://www.otto-fuchs.com/fileadmin/user_upload/Infocenter/Werkstoffinformationen/Al-Datenblaetter/AN40.pdf" ;
+                                                              rdfs:label "Datasheet AN40, rev. 1 (example)" .
+
+
+###  https://w3id.org/dmi/www.otto-fuchs.com/datasheet_AN40_rev1/AN40
+<https://w3id.org/dmi/www.otto-fuchs.com/datasheet_AN40_rev1/AN40> rdf:type owl:NamedIndividual ,
+                                                                            <https://w3id.org/dmi/Digital_material_identifier> ;
+                                                                   <http://www.w3.org/ns/prov#wasQuotedFrom> <https://w3id.org/dmi/www.otto-fuchs.com/datasheet_AN40_rev1> ;
+                                                                   rdfs:label "Fuchs AN40 (example)" .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+<http://purl.org/dc/terms/license> rdfs:label "dc:license" .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
